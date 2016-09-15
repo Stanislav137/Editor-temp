@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_style"
+            android:title="STYLE" />
+        <item
+            android:id="@+id/nav_color"
+            android:title="COLOR" />
+        <item
+            android:id="@+id/nav_size"
+            android:title="SIZE" />
+        <item
+            android:id="@+id/nav_scale"
+            android:title="SCALE" />
+        <item
+            android:id="@+id/nav_block"
+            android:title="BLOCK" />
+    </group>
+
+    <item android:title="Additional Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_save"
+                android:title="SAVE" />
+            <item
+                android:id="@+id/nav_load"
+                android:title="LOAD" />
+        </menu>
+    </item>
+
+</menu>
